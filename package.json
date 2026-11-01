@@ -1,0 +1,28 @@
+{
+  "name": "signalgrid-revops-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "tsx": "^4.23.15"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "dotenv": "^18.0.9"
+  }
+}
